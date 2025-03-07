@@ -1,0 +1,1 @@
+Prueba Nextjs en amplify
