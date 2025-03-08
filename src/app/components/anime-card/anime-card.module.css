@@ -1,0 +1,51 @@
+.animeCard{
+    position: relative;
+}
+
+.animeImage{
+    position: relative;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.animeTexto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 0px;
+    font-size: 0.8rem;
+}
+
+.nombreAnime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+}
+
+.nombreAnime h2{
+    font-weight: bold;
+    color: white;
+}
+
+.nombreAnime p{
+    font-weight: bold;
+    color: white;
+}
+
+.rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ratingItem{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+
+.ratingItem p{
+    font-weight: bold;
+}

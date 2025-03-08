@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    background-color: #ffffff16;
+}
+
+.headerBackground{
+    position: absolute;
+    width: max(70%, 600px);
+    height: 460px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.texto{
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+}
+
+.texto span{
+    display: inline-block;
+    color: red;
+}
+
+.headerImage{
+    display: flex;
+    position: relative;
+    width: min(50%, 400px);
+    height: 400px;
+    justify-content: center;
+}
